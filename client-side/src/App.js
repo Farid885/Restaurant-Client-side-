@@ -1,11 +1,10 @@
 import React from "react";
+import Layout from './Components/layout/Layout'
 
-function App() {
-  return (
-    <div className="App">
-   buranida ozuvuz layoutu qoyarsiz 
+const App = () => {
+    return <div className="App">
+      <Layout />
     </div>
-  );
 }
 
-export default App;
+export default App

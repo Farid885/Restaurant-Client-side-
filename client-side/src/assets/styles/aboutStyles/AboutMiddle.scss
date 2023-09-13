@@ -1,0 +1,25 @@
+.aboutTitle {
+    @media (min-width: 1200px) {
+        height: 485px;
+    }
+    .container {
+        .img {
+            @media (min-width: 1200px) {
+                position: absolute;
+                right: -120px;
+                top: -220px;
+            }
+        }
+    
+        p {
+            span {
+                color: #ddd6cc;
+            }
+    
+            h1 {
+                font-size: 70px;
+                color: #ddd6cc;
+            }
+        }
+    }
+}
