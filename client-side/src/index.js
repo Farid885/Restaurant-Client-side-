@@ -7,11 +7,17 @@ import './assets/styles/Home.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+<<<<<<< Updated upstream
   <BrowserRouter>
   
   <App />
   
   </BrowserRouter>
  
+=======
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+>>>>>>> Stashed changes
 );
 
