@@ -1,0 +1,116 @@
+.sushiSection {
+    
+    @media (max-width: 1200px) {
+        display: none;
+    }    
+    
+    z-index: 100;
+    height: 1000px;
+
+    .sushi_section_1 {
+        position: absolute;
+        top: 500px;
+
+        .sushi4 {
+            position: absolute;
+            top: 0;
+            left: 320px;
+
+            & {
+                animation: imgRotate 60s linear infinite;
+            }
+
+            @keyframes imgRotate {
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+        .sushi5 {
+            position: absolute;
+            top: 190px;
+            left: 150px;
+
+            & {
+                animation: imgRotate 60s linear infinite;
+            }
+
+            @keyframes imgRotate {
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+        .sushi6 {
+            position: absolute;
+            top: 350px;
+            left: 0px;
+
+            & {
+                animation: imgRotate 60s linear infinite;
+            }
+
+            @keyframes imgRotate {
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+    }
+
+    .sushi_section_2 {
+        position: absolute;
+        right: -10px;
+        .sushi1 {
+            position: absolute;
+            top: 190px;
+            right: 20px;
+
+            & {
+                animation: imgRotate 60s linear infinite;
+            }
+
+            @keyframes imgRotate {
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+        .sushi2 {
+            position: absolute;
+            top: 400px;
+            right: 160px;
+
+            & {
+                animation: imgRotate 60s linear infinite;
+            }
+
+            @keyframes imgRotate {
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+        .sushi3 {
+            position: absolute;
+            top: 600px;
+            right: 350px;
+
+            & {
+                animation: imgRotate 60s linear infinite;
+            }
+
+            @keyframes imgRotate {
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+    }
+
+}
