@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./Components/Layout/Header";
+import Home from "./Components/Pages/Home";
 
 function App() {
   return (
     <div className="App">
-   buranida ozuvuz layoutu qoyarsiz 
+      <Header/>
+      <Home />
     </div>
   );
 }

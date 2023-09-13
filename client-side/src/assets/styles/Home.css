@@ -1,27 +1,27 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
-
 @font-face {
   font-family: Freight;
   src: url("../fonts/Freight/Freight.otf");
 }
-
 .in-left {
   animation: fadeInLeft 1.5s 0.3s both;
 }
+
 .in-left-next {
   animation: fadeInLeft 1.5s 1s both;
 }
+
 .in-up {
   animation: fadeInUp 1.5s 0.3s both;
 }
+
 .under {
   position: relative;
   display: inline-block;
 }
+
 .under::after {
   content: "";
   position: absolute;
@@ -34,10 +34,12 @@
   transform-origin: bottom right;
   transition: transform 0.25s linear;
 }
+
 .under:hover::after {
   transform-origin: bottom left;
   transform: scaleX(1);
 }
+
 @keyframes fadeInLeft {
   from {
     opacity: 0;
@@ -57,4 +59,4 @@
     opacity: 1;
     transform: translateY(0px);
   }
-}
+}/*# sourceMappingURL=Home.css.map */
