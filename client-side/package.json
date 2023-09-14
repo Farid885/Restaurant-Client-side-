@@ -20,7 +20,6 @@
     "reactstrap": "^9.2.0",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
-    "sass": "^1.66.1",
     "slick-carousel": "^1.8.1",
     "sweetalert": "^2.1.2",
     "swiper": "^10.2.0",
@@ -50,5 +49,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sass": "^1.67.0"
   }
 }

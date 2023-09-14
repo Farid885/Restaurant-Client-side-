@@ -7,15 +7,15 @@ import Layout from "./Components/Layout/Layout";
 
 const App = () => {
   return (
-    <div className="App">
+              <div className="App">
 
-      <Layout>
-<Routing/>
+                     <Layout>
+                         <Routing/>
 
 
-</Layout>
-    </div>
-  );
-};
+                    </Layout>
+                  </div>
+            );
+          };
 
-export default App;
+          export default App;
