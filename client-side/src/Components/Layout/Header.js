@@ -1,5 +1,4 @@
 import React from "react";
-import { Images } from "../../assets/images/Images";
 
 function Header() {
   window.onscroll = function () {
@@ -22,7 +21,7 @@ function Header() {
   }
 
   return (
-    <div id="navbar" className="fixed w-full z-50">
+    <div id="navbar" className="fixed w-full z-50 opacity-95">
       <div className="mx-24 my-2 max-w-screen-xl">
         <div className="flex justify-between items-center">
           <h1 id="logo" className="font-logo text-secondaryText text-8xl">
