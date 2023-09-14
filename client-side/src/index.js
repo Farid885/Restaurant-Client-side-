@@ -7,6 +7,7 @@ import "../src/assets/styles/Home.scss";
 import "../src/App.css";
 import "./assets/styles/Home.css";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>

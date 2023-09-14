@@ -1,7 +1,6 @@
 import React from "react";
 import { Images } from "../../assets/images/Images";
 
-
 function Home() {
   return (
     <div>

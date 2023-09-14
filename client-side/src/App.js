@@ -1,14 +1,19 @@
 import React from "react";
-import Layout from "./Components/Layout/Layout";
+import Header from "./Components/Layout/Header";
+import Home from "./Components/Pages/Home";
 import Routing from "./Components/Layout/Routing";
+import Layout from "./Components/Layout/Layout";
 
 
 const App = () => {
   return (
     <div className="App">
-  <Layout>
-    <Routing/>
-  </Layout>
+
+      <Layout>
+<Routing/>
+
+
+</Layout>
     </div>
   );
 };
