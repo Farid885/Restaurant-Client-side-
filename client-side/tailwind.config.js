@@ -10,6 +10,7 @@ module.exports = {
       },
       fontFamily:{
         "bigText":['Freight'],
+        "miniText":['Lato'],
         "logo":['Kashima'],
       },
       fontSize: {
