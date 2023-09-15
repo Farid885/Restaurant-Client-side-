@@ -28,7 +28,7 @@ function Navbar() {
         <div className="flex justify-between items-center">
           {/* Home page link (" / ") */}
           <div>
-            <h1 id="logo" className="font-logo text-secondaryText text-8xl">
+            <h1 id="logo" className="font-logo text-secondaryText text-8xl cursor-pointer">
               sakura
             </h1>
           </div>

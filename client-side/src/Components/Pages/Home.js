@@ -6,7 +6,7 @@ function Home() {
     <div>
       <div className="relative">
         <img
-          className="h-screen lg:h-[62rem] w-screen lg:w-full object-cover opacity-90"
+          className="h-screen lg:h-[62rem] w-full object-cover opacity-90"
           src={Images.Hero}
           alt="Hero"
         />

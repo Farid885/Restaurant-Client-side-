@@ -1,9 +1,12 @@
+//Tailwindcss
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
+//================================================================================================================================================================
 
+//Fonts
 @font-face {
   font-family: Freight;
   src: url("../fonts/Freight/Freight.otf");
@@ -16,7 +19,9 @@
   font-family: Lato;
   src: url("../fonts/Lato/Lato-Regular.ttf");
 }
+//================================================================================================================================================================
 
+//Animations
 .in-left {
   animation: fadeInLeft 1.5s 0.3s both;
 }
@@ -49,6 +54,8 @@
   transform-origin: bottom left;
   transform: scaleX(1);
 }
+
+
 @keyframes fadeInLeft {
   from {
     opacity: 0;
@@ -69,7 +76,6 @@
     transform: translateX(0px);
   }
 }
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -80,3 +86,4 @@
     transform: translateY(0px);
   }
 }
+//================================================================================================================================================================
