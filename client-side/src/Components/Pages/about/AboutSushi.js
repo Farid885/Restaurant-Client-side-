@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from '../../../assets/image/aboutImg/image'
+import '../../../assets/styles/aboutStyles/AboutSushi.scss'
 
 const AboutSushi = () => {
     return <div className='position-relative sushiSection'>
