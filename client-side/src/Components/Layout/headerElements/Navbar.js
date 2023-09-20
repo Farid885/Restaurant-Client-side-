@@ -22,7 +22,7 @@ function Navbar() {
     }
   }
   return (
-    <div id="navbar" className="fixed w-full z-50 opacity-95">
+    <div id="navbar" className="fixed w-full z-50">
       <div className="mx-4 lg:mx-auto my-2 max-w-screen-xl">
         <div className="flex justify-between items-center">
           {/* Home page link (" / ") */}

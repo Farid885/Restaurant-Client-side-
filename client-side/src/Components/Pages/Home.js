@@ -26,7 +26,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section id="mission" className="relative z-10 -top-24 in-left w-full">
+      <section id="mission" className="relative z-10 -top-24 in-left lg:w-[80rem]">
         <div>
           <img
             className="h-screen lg:h-[44rem] w-full lg:w-[80rem] object-cover"
@@ -34,12 +34,12 @@ function Home() {
             alt="Hero"
           />
         </div>
-        <div className="text-secondaryText absolute top-8 lg:top-24 w-full">
-          <div className="text-6xl font-bigText mx-4 lg:mx-0 in-left">
+        <div className="text-secondaryText absolute top-8 lg:top-24 lg:w-[70rem]">
+          <div className="flex lg:ml-52 text-6xl font-bigText in-left">
             <p>Our Mission</p>
           </div>
-          <div className="flex text-base lg:text-xs flex-col lg:flex-row in-up mt-8">
-            <div className="w-[23rem] lg:w-[24rem] mt-8 lg:mt-0 mx-4 lg:mx-0">
+          <div className="flex gap-4 font-miniText justify-end text-base lg:text-xs font-light flex-col lg:flex-row in-up mt-8">
+            <div className="w-[23rem] mt-8 lg:mt-0">
               <p>
                 Looking for the best Japanese-inspired restaurant in Birmingham,
                 Michigan? Look no further than Adachi, nestled in the Victorian
@@ -55,7 +55,7 @@ function Home() {
                 ensuring our guests taste our heartfelt commitment to quality.
               </p>
             </div>
-            <div className="w-[23rem] lg:w-[24rem] mt-8 lg:mt-0 mx-4 lg:mx-0">
+            <div className="w-[23rem] lg:w-[24rem] mt-8 lg:mt-0">
               <p>
                 Adachi sets itself apart by prioritizing the social experience
                 and taking a vibe-driven approach to fine dining. Our chic
