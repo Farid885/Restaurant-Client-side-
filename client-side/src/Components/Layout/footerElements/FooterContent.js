@@ -1,4 +1,5 @@
 import React from "react";
+import { Images } from "../../../assets/images/Images";
 
 function FooterContent() {
   return (
@@ -35,6 +36,51 @@ function FooterContent() {
           </div>
           <div className="mt-4 lg:mt-0 border border-secondaryText font-bigText px-12 py-2 hover:bg-secondaryText hover:text-black text-lg transition ease transform duration-300 in-right cursor-pointer">
             <button>Reserve</button>
+          </div>
+        </div>
+        <div className="text-secondaryText ">
+          <div className="flex gap-4 items-center mt-6 lg:mt-12 in-up">
+            <p className="font-miniText font-light text-sm lg:text-lg">
+              Contacts :
+            </p>
+            <div className="flex gap-2">
+              <div className="cursor-pointer">
+                <a href="https://github.com/Farid885">
+                  <img
+                    src={Images.F}
+                    alt="Farid"
+                    className="w-8 lg:w-14 h-8 lg:h-14 cursor-pointer"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/ZackRavenscroft">
+                  <img
+                    src={Images.Z}
+                    alt="Zeynal"
+                    className="w-8 lg:w-14 h-8 lg:h-14  cursor-pointer"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/rhmv">
+                  <img
+                    src={Images.M}
+                    alt="Murad"
+                    className="w-8 lg:w-14 h-8 lg:h-14  cursor-pointer"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/nazilya96">
+                  <img
+                    src={Images.N}
+                    alt="Nazilya"
+                    className="w-8 lg:w-14 h-8 lg:h-14  cursor-pointer"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

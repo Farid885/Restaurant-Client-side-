@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div>
       <div
-        className="h-[42rem] lg:h-[36rem] w-full  text-secondaryText text-center"
+        className="h-[46rem] lg:h-[36rem] w-full  text-secondaryText text-center"
         style={{ backgroundImage: `url(${Images.Footer})` }}
       >
         <FooterContent />
@@ -16,5 +16,4 @@ function Footer() {
     </div>
   );
 }
-
 export default Footer;

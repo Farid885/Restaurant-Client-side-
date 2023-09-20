@@ -13,22 +13,6 @@
   font-family: Lato;
   src: url("../fonts/Lato/Lato-Regular.ttf");
 }
-.in-left {
-  animation: fadeInLeft 1.5s 0.3s both;
-}
-
-.in-left-next {
-  animation: fadeInLeft 1.5s 1s both;
-}
-
-.in-right {
-  animation: fadeInRight 1.5s 0.3s both;
-}
-
-.in-up {
-  animation: fadeInUp 1.5s 0.3s both;
-}
-
 .under {
   position: relative;
   display: inline-block;
@@ -50,6 +34,22 @@
 .under:hover::after {
   transform-origin: bottom left;
   transform: scaleX(1);
+}
+
+.in-left {
+  animation: fadeInLeft 1.5s 0.3s both;
+}
+
+.in-left-next {
+  animation: fadeInLeft 1.5s 1s both;
+}
+
+.in-right {
+  animation: fadeInRight 1.5s 0.3s both;
+}
+
+.in-up {
+  animation: fadeInUp 1.5s 0.3s both;
 }
 
 @keyframes fadeInLeft {

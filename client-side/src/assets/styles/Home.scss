@@ -21,19 +21,7 @@
 }
 //================================================================================================================================================================
 
-//Animations
-.in-left {
-  animation: fadeInLeft 1.5s 0.3s both;
-}
-.in-left-next {
-  animation: fadeInLeft 1.5s 1s both;
-}
-.in-right {
-  animation: fadeInRight 1.5s 0.3s both;
-}
-.in-up {
-  animation: fadeInUp 1.5s 0.3s both;
-}
+//Hover
 .under {
   position: relative;
   display: inline-block;
@@ -54,7 +42,21 @@
   transform-origin: bottom left;
   transform: scaleX(1);
 }
+//================================================================================================================================================================
 
+//Animations
+.in-left {
+  animation: fadeInLeft 1.5s 0.3s both;
+}
+.in-left-next {
+  animation: fadeInLeft 1.5s 1s both;
+}
+.in-right {
+  animation: fadeInRight 1.5s 0.3s both;
+}
+.in-up {
+  animation: fadeInUp 1.5s 0.3s both;
+}
 
 @keyframes fadeInLeft {
   from {
