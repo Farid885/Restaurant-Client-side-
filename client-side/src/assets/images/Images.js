@@ -11,10 +11,10 @@ import menuBG from "./bgImages/menuBg.jpg";
 import Footer from "./bgImages/footerBg.jpg";
 import sakura1 from "./bgImages/footerSakura1.png";
 import sakura2 from "./bgImages/footerSakura2.png";
-import F from "./icons/F.png";
-import Z from "./icons/Z.png";
-import M from "./icons/M.png";
-import N from "./icons/N.png";
+import Farid from "./icons/F.png";
+import Zeynal from "./icons/Z.png";
+import Murad from "./icons/M.png";
+import Nazilya from "./icons/N.png";
 
 export const Images = {
   Hero,
@@ -30,8 +30,8 @@ export const Images = {
   Footer,
   sakura1,
   sakura2,
-  F,
-  Z,
-  M,
-  N,
+  Farid,
+  Zeynal,
+  Murad,
+  Nazilya,
 };

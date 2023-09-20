@@ -39,7 +39,7 @@ function FooterContent() {
           </div>
         </div>
         <div className="text-secondaryText ">
-          <div className="flex gap-4 items-center mt-6 lg:mt-12 in-up">
+          <div className="flex gap-4 items-center mt-20 lg:mt-12 in-up">
             <p className="font-miniText font-light text-sm lg:text-lg">
               Contacts :
             </p>
@@ -47,7 +47,7 @@ function FooterContent() {
               <div className="cursor-pointer">
                 <a href="https://github.com/Farid885">
                   <img
-                    src={Images.F}
+                    src={Images.Farid}
                     alt="Farid"
                     className="w-8 lg:w-14 h-8 lg:h-14 cursor-pointer"
                   />
@@ -56,7 +56,7 @@ function FooterContent() {
               <div>
                 <a href="https://github.com/ZackRavenscroft">
                   <img
-                    src={Images.Z}
+                    src={Images.Zeynal}
                     alt="Zeynal"
                     className="w-8 lg:w-14 h-8 lg:h-14  cursor-pointer"
                   />
@@ -65,7 +65,7 @@ function FooterContent() {
               <div>
                 <a href="https://github.com/rhmv">
                   <img
-                    src={Images.M}
+                    src={Images.Murad}
                     alt="Murad"
                     className="w-8 lg:w-14 h-8 lg:h-14  cursor-pointer"
                   />
@@ -74,7 +74,7 @@ function FooterContent() {
               <div>
                 <a href="https://github.com/nazilya96">
                   <img
-                    src={Images.N}
+                    src={Images.Nazilya}
                     alt="Nazilya"
                     className="w-8 lg:w-14 h-8 lg:h-14  cursor-pointer"
                   />

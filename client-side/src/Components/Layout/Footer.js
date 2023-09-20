@@ -5,9 +5,9 @@ import FooterContent from "./footerElements/FooterContent";
 
 function Footer() {
   return (
-    <div>
+    <div className="relative z-40">
       <div
-        className="h-[46rem] lg:h-[36rem] w-full  text-secondaryText text-center"
+        className="h-[42rem] lg:h-[36rem] w-full  text-secondaryText text-center"
         style={{ backgroundImage: `url(${Images.Footer})` }}
       >
         <FooterContent />

@@ -41,7 +41,7 @@
 }
 
 .in-left-next {
-  animation: fadeInLeft 1.5s 1s both;
+  animation: fadeInLeft 1.5s 0.8s both;
 }
 
 .in-right {
