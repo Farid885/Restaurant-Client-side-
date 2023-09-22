@@ -1,20 +1,19 @@
-import React from 'react'
-import About from '../Pages/about/About'
-import Home from '../Pages/Home'
-import Header from './Header'
-import Footer from './Footer'
+import React from "react";
+import About from "../Pages/about/About";
+import Header from "./Header";
+import Home from "../Pages/Home";
+import Footer from "../Layout/Footer";
 
 function Layout(props) {
-    return (
-        <div>
-            <Layout>
-              <Home/>
-              
-              {props.children}
-              <Footer/>
-            </Layout>
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      {props.children}
+
+     
+      <Footer />
+    </div>
+  );
 }
 
-export default Layout
+export default Layout;
