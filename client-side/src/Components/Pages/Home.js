@@ -37,7 +37,7 @@ function Home() {
             alt="Hero"
           />
         </div>
-        <div className="text-secondaryText absolute top-8 lg:top- w-[80rem]">
+        <div className="text-secondaryText absolute top-8 lg:w-[80rem] ">
           <div className="flex  flex-col absolute lg:w-[70rem]">
             <div className="flex lg:ml-52 text-6xl font-bigText in-left">
               <p>Our Mission</p>
