@@ -1,36 +1,23 @@
-<<<<<<< HEAD
-@import 'aboutStyles/AboutSushi.scss';
-@import 'aboutStyles/AboutMiddle.scss';
-@import 'aboutStyles/AboutFooter.scss';
-=======
-//Tailwindcss
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
-//================================================================================================================================================================
-
-//Fonts
 @font-face {
   font-family: Freight;
   src: url("../fonts/Freight/Freight.otf");
 }
 @font-face {
   font-family: Kashima;
-  src: url("../fonts/Kashima/Kashima\ Demo.otf");
+  src: url("../fonts/Kashima/Kashima Demo.otf");
 }
 @font-face {
   font-family: Lato;
   src: url("../fonts/Lato/Lato-Regular.ttf");
 }
-//================================================================================================================================================================
-
-//Hover
 .under {
   position: relative;
   display: inline-block;
 }
+
 .under::after {
   content: "";
   position: absolute;
@@ -43,28 +30,32 @@
   transform-origin: bottom right;
   transition: transform 0.25s linear;
 }
+
 .under:hover::after {
   transform-origin: bottom left;
   transform: scaleX(1);
 }
-//================================================================================================================================================================
 
-//Animations
 .in-left {
   animation: fadeInLeft 1.5s 0.3s both;
 }
+
 .in-left-next {
   animation: fadeInLeft 1.5s 0.8s both;
 }
+
 .in-right {
   animation: fadeInRight 1.5s 0.3s both;
 }
+
 .in-right-next {
   animation: fadeInRight 1.5s 0.8s both;
 }
+
 .in-up {
   animation: fadeInUp 1.5s 0.3s both;
 }
+
 .spin {
   animation: 60s linear 0s normal none infinite running spin;
 }
@@ -103,6 +94,4 @@
   100% {
     transform: rotate(360deg);
   }
-}
-//================================================================================================================================================================
->>>>>>> c867d86040e8555070134d137814c76192940a8d
+}/*# sourceMappingURL=Home.css.map */
