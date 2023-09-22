@@ -16,6 +16,7 @@ import Zeynal from "./icons/Z.png";
 import Murad from "./icons/M.png";
 import Nazilya from "./icons/N.png";
 import homePic from "./foods/homePic.jpg";
+import food1 from "./foods/food1.png";
 
 export const Images = {
   Hero,
@@ -36,4 +37,5 @@ export const Images = {
   Murad,
   Nazilya,
   homePic,
+  food1,
 };

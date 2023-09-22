@@ -28,23 +28,23 @@ function Home() {
       </section>
       <section
         id="mission"
-        className="relative z-10 -top-24 in-left lg:w-[80rem]"
+        className="relative z-10 -top-24 w-full lg:w-[80rem]"
       >
-        <div>
+        <div className="">
           <img
-            className="h-screen lg:h-[44rem] w-full lg:w-[80rem] object-cover"
+            className="h-screen lg:h-[44rem] w-full lg:w-[80rem] object-cover in-left"
             src={Images.Footer}
             alt="Hero"
           />
         </div>
-        <div className="text-secondaryText absolute top-8 lg:w-[80rem] ">
-          <div className="flex  flex-col absolute lg:w-[70rem]">
+        <div className="text-secondaryText absolute top-8 w-full lg:w-[80rem] ">
+          <div className="flex  flex-col absolute w-full lg:w-[70rem]">
             <div className="flex lg:ml-52 text-6xl font-bigText in-left">
               <p>Our Mission</p>
             </div>
-            <div className="flex gap-4 font-miniText text-base lg:text-xs font-light flex-col in-up mt-8">
-              <div className="flex justify-end flex-col lg:flex-row">
-                <div className="w-[23rem] mt-8 lg:mt-0">
+            <div className="flex font-miniText text-sm lg:text-xs font-light flex-col in-up mt-8">
+              <div className="flex justify-end lg:gap-4 flex-col lg:flex-row">
+                <div className="w-full lg:w-[23rem] mt-8 lg:mt-0">
                   <p>
                     Looking for the best Japanese-inspired restaurant in
                     Birmingham, Michigan? Look no further than Sakura, nestled
@@ -62,7 +62,7 @@ function Home() {
                     heartfelt commitment to quality.
                   </p>
                 </div>
-                <div className="w-[23rem] lg:w-[24rem] mt-8 lg:mt-0">
+                <div className="w-full lg:w-[23rem] mt-8 lg:mt-0">
                   <p>
                     Sakura sets itself apart by prioritizing the social
                     experience and taking a vibe-driven approach to fine dining.
@@ -90,14 +90,29 @@ function Home() {
           </div>
           <div className="relative hidden lg:flex justify-end top-96">
             <img
-              className="object-cover w-[63rem] h-[28rem]"
+              className="object-cover w-[63rem] h-[28rem] in-left-next"
               src={Images.homePic}
-              alt="Hero"
+              alt="menu"
             />
           </div>
         </div>
       </section>
-      <section></section>
+      <section className="">
+        <div className="flex text-8xl lg:text-8xl xl:text-9/5xl text-primaryText font-bigText relative z-10 w-full overflow-hidden">
+          <div className="relative w-3/4 top-6 z-20 mx-24">
+            <h1 className="xl:tracking-wider in-left-next">
+              Stylish and Flavorful Components
+            </h1>
+          </div>
+          <div className="in-right-next">
+            <img
+              className="relative overflow-hidden spin -top-8"
+              src={Images.food1}
+              alt="food"
+            />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
