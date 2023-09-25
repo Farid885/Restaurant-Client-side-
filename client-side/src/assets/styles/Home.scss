@@ -1,12 +1,12 @@
-//Tailwindcss
+@import 'aboutStyles/AboutSushi.scss';
+@import 'aboutStyles/AboutMiddle.scss';
+@import 'aboutStyles/AboutFooter.scss';
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
-//================================================================================================================================================================
 
-//Fonts
 @font-face {
   font-family: Freight;
   src: url("../fonts/Freight/Freight.otf");
@@ -21,7 +21,19 @@
 }
 //================================================================================================================================================================
 
-//Hover
+//Animations
+.in-left {
+  animation: fadeInLeft 1.5s 0.3s both;
+}
+.in-left-next {
+  animation: fadeInLeft 1.5s 1s both;
+}
+.in-right {
+  animation: fadeInRight 1.5s 0.3s both;
+}
+.in-up {
+  animation: fadeInUp 1.5s 0.3s both;
+}
 .under {
   position: relative;
   display: inline-block;
@@ -31,7 +43,7 @@
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #e4d1bf;
+  background-color: #E4D1BF;
   bottom: 0;
   left: 0;
   transform: scaleX(0);
@@ -42,42 +54,12 @@
   transform-origin: bottom left;
   transform: scaleX(1);
 }
-//================================================================================================================================================================
 
-//Animations
-.in-left {
-  animation: fadeInLeft 1.5s 0.3s both;
-}
-.in-left-next {
-  animation: fadeInLeft 1.5s 0.8s both;
-}
-.in-right {
-  animation: fadeInRight 1.5s 0.3s both;
-}
-.in-right-next {
-  animation: fadeInRight 1.5s 0.8s both;
-}
-.in-up {
-  animation: fadeInUp 1.5s 0.3s both;
-}
-.spin {
-  animation: 60s linear 0s normal none infinite running spin;
-}
 
 @keyframes fadeInLeft {
   from {
     opacity: 0;
     transform: translateX(-100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-@keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translateX(100px);
   }
   to {
     opacity: 1;
@@ -92,11 +74,6 @@
   to {
     opacity: 1;
     transform: translateY(0px);
-  }
-}
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
   }
 }
 //================================================================================================================================================================
