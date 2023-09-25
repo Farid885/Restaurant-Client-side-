@@ -1,14 +1,15 @@
 import React from "react";
-import Header from "./Components/Layout/Header";
-import Home from "./Components/Pages/Home";
+import Routing from "./Components/Layout/Routing";
+import Layout from "./Components/Layout/Layout";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Home />
+      <Layout>
+        <Routing />
+      </Layout>
     </div>
   );
-}
+};
 
 export default App;
