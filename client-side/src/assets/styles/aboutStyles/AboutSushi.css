@@ -1,0 +1,87 @@
+.sushiSection {
+  z-index: 100;
+  height: 1000px;
+}
+@media (max-width: 1200px) {
+  .sushiSection {
+    display: none;
+  }
+}
+.sushiSection .sushi_section_1 .sushi4 {
+  position: absolute;
+  top: 0;
+  left: 320px;
+}
+.sushiSection .sushi_section_1 .sushi4 {
+  animation: imgRotate 60s linear infinite;
+}
+@keyframes imgRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.sushiSection .sushi_section_1 .sushi5 {
+  position: absolute;
+  top: 190px;
+  left: 150px;
+}
+.sushiSection .sushi_section_1 .sushi5 {
+  animation: imgRotate 60s linear infinite;
+}
+@keyframes imgRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.sushiSection .sushi_section_1 .sushi6 {
+  position: absolute;
+  top: 350px;
+  left: 0px;
+}
+.sushiSection .sushi_section_1 .sushi6 {
+  animation: imgRotate 60s linear infinite;
+}
+@keyframes imgRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.sushiSection .sushi_section_2 .sushi1 {
+  position: absolute;
+  top: 190px;
+  right: 20px;
+}
+.sushiSection .sushi_section_2 .sushi1 {
+  animation: imgRotate 60s linear infinite;
+}
+@keyframes imgRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.sushiSection .sushi_section_2 .sushi2 {
+  position: absolute;
+  top: 400px;
+  right: 160px;
+}
+.sushiSection .sushi_section_2 .sushi2 {
+  animation: imgRotate 60s linear infinite;
+}
+@keyframes imgRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.sushiSection .sushi_section_2 .sushi3 {
+  position: absolute;
+  top: 600px;
+  right: 350px;
+}
+.sushiSection .sushi_section_2 .sushi3 {
+  animation: imgRotate 60s linear infinite;
+}
+@keyframes imgRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=AboutSushi.css.map */

@@ -38,7 +38,7 @@ function FooterContent() {
             <button>Reserve</button>
           </div>
         </div>
-        <div className="text-secondaryText ">
+        {/* <div className="text-secondaryText ">
           <div className="flex gap-4 items-center mt-20 lg:mt-12 in-up">
             <p className="font-miniText font-light text-sm lg:text-lg">
               Contacts :
@@ -82,7 +82,7 @@ function FooterContent() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
