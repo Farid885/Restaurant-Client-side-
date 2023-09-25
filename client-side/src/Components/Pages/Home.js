@@ -125,6 +125,28 @@ function Home() {
           </div>
         </div>
       </section>
+      <div className="hidden lg:block overflow-hidden">
+        <div className="flex">
+          <div className="relative top-12">
+            <h3 className="text-9/5xl leading-[8rem] relative z-40 text-primaryText font-bigText ml-32">
+              Stylish and Flavorful Components
+            </h3>
+          </div>
+          <div className="relative -top-10 z-10">
+            <img className="w-[40rem] spin" src={Images.food1} alt="food" />
+          </div>
+        </div>
+        <div className="flex gap-96">
+          <div className="ml-16">
+            <img className="w-[20rem] spin" src={Images.food2} alt="food" />
+            <img className="w-[25rem] spin relative left-32 -top-16" src={Images.food3} alt="food" />
+          </div>
+          <div className="relative top-8">
+            <img className="w-[35rem] spin" src={Images.food4} alt="food" />
+            <img className="w-[18rem] spin relative left-48 -top-8" src={Images.food5} alt="food" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
