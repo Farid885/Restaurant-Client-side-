@@ -7,10 +7,13 @@
     display: none;
   }
 }
+<<<<<<< HEAD
 .sushiSection .sushi_section_1 {
   position: absolute;
   top: 500px;
 }
+=======
+>>>>>>> 2617358b1b71c35ad37a2f6c2cd7fcc9b425dcc2
 .sushiSection .sushi_section_1 .sushi4 {
   position: absolute;
   top: 0;
@@ -50,10 +53,13 @@
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 .sushiSection .sushi_section_2 {
   position: absolute;
   right: -10px;
 }
+=======
+>>>>>>> 2617358b1b71c35ad37a2f6c2cd7fcc9b425dcc2
 .sushiSection .sushi_section_2 .sushi1 {
   position: absolute;
   top: 190px;

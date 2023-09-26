@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div>
       <div
-        className="h-[42rem] lg:h-[36rem] w-full  text-secondaryText text-center"
+        className="w-full h-screen  text-secondaryText text-center"
         style={{ backgroundImage: `url(${Images.Footer})` }}
       >
         <FooterContent />
