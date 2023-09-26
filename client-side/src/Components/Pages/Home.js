@@ -106,29 +106,35 @@ function Home() {
               alt="food"
             />
           </div>
-          <div className="flex justify-between mt-8 relative z-30 w-full overflow-hidden">
-            <img
-              className="relative z-30 w-24 spin"
-              src={Images.food1}
-              alt="food"
-            />
-            <img
-              className="relative z-30 w-32 spin"
-              src={Images.food4}
-              alt="food"
-            />
-            <img
-              className="relative z-30 w-24 spin"
-              src={Images.food5}
-              alt="food"
-            />
+          <div className="flex justify-between mt-8 relative z-30 w-full">
+            <div className="relative -top-14 z-30 w-24 ">
+              <img
+                className="spin"
+                src={Images.food1}
+                alt="food"
+              />
+            </div>
+            <div className="relative top-12 z-30 w-32">
+              <img
+                className="spin"
+                src={Images.food4}
+                alt="food"
+              />
+            </div>
+            <div className="relative z-30 w-24 -left-16">
+              <img
+                className="spin"
+                src={Images.food5}
+                alt="food"
+              />
+            </div>
           </div>
         </div>
       </section>
       <div className="hidden lg:block overflow-hidden">
         <div className="flex">
           <div className="relative top-12">
-            <h3 className="text-9/5xl leading-[8rem] relative z-40 text-primaryText font-bigText ml-32">
+            <h3 className="text-9/5xl leading-[8rem] relative z-40 text-primaryText font-bigText ml-32 in-up">
               Stylish and Flavorful Components
             </h3>
           </div>
@@ -140,7 +146,7 @@ function Home() {
           <div className="ml-16">
             <img className="w-[20rem] spin" src={Images.food2} alt="food" />
             <img
-              className="w-[25rem] spin relative left-32 -top-16"
+              className="w-[15rem] spin relative left-32 -top-8"
               src={Images.food3}
               alt="food"
             />
@@ -148,14 +154,14 @@ function Home() {
           <div className="relative -top-8">
             <img className="w-[35rem] spin" src={Images.food4} alt="food" />
             <img
-              className="w-[18rem] spin relative left-48 top-4"
+              className="w-[18rem] spin relative left-48 top-6"
               src={Images.food5}
               alt="food"
             />
           </div>
         </div>
       </div>
-      <section id="menu" className="hidden lg:block">
+      <section id="menu" className="hidden lg:block relative -top-24">
         <div className="mx-10 relative xl:top-24 flex justify-center">
           <h3 className="text-primaryText text-5xl xm:text-7xl md:text-8xl lg:text-9xl xl:text-11xl font-bigText in-up">
             View Our Menu
@@ -192,7 +198,7 @@ function Home() {
               Drink <br /> Menu
             </p>
           </div>
-          <div className="floating relative top-44">
+          <div className="floating relative top-40">
             <img
               className="brightness-50 hover:brightness-90 transition duration-700 ease-in-out"
               src={Images.category5}

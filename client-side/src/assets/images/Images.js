@@ -26,7 +26,8 @@ import category2 from "./categories/category2.jpg";
 import category3 from "./categories/category3.jpg";
 import category4 from "./categories/category4.jpg";
 import category5 from "./categories/category5.jpg";
-
+import Zackary from "./Zackary.jpeg";
+import team from "./team.jpg";
 
 export const Images = {
   Hero,
@@ -53,6 +54,8 @@ export const Images = {
   category3,
   category4,
   category5,
+  Zackary,
+  team,
   // Farid,
   // Zeynal,
   // Murad,
