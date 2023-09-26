@@ -106,7 +106,7 @@ function Home() {
               alt="food"
             />
           </div>
-          <div className="flex gap-6 mt-8 relative z-30">
+          <div className="flex justify-between mt-8 relative z-30 w-full overflow-hidden">
             <img
               className="relative z-30 w-24 spin"
               src={Images.food1}
@@ -132,21 +132,88 @@ function Home() {
               Stylish and Flavorful Components
             </h3>
           </div>
-          <div className="relative -top-10 z-10">
-            <img className="w-[40rem] spin" src={Images.food1} alt="food" />
+          <div className="relative lg:top-6 xl:-top-6 z-10">
+            <img className=" xl:w-[35rem] spin" src={Images.food1} alt="food" />
           </div>
         </div>
         <div className="flex gap-96">
           <div className="ml-16">
             <img className="w-[20rem] spin" src={Images.food2} alt="food" />
-            <img className="w-[25rem] spin relative left-32 -top-16" src={Images.food3} alt="food" />
+            <img
+              className="w-[25rem] spin relative left-32 -top-16"
+              src={Images.food3}
+              alt="food"
+            />
           </div>
-          <div className="relative top-8">
+          <div className="relative -top-8">
             <img className="w-[35rem] spin" src={Images.food4} alt="food" />
-            <img className="w-[18rem] spin relative left-48 -top-8" src={Images.food5} alt="food" />
+            <img
+              className="w-[18rem] spin relative left-48 top-4"
+              src={Images.food5}
+              alt="food"
+            />
           </div>
         </div>
       </div>
+      <section id="menu" className="hidden lg:block">
+        <div className="mx-10 relative xl:top-24 flex justify-center">
+          <h3 className="text-primaryText text-5xl xm:text-7xl md:text-8xl lg:text-9xl xl:text-11xl font-bigText in-up">
+            View Our Menu
+          </h3>
+        </div>
+        <div id="categories" className="flex gap-4 relative z-40">
+          <div className="floating relative top-36">
+            <img
+              className="brightness-50 hover:brightness-90 transition duration-700 ease-in-out"
+              src={Images.category1}
+              alt="Delivery menu"
+            />
+            <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
+              Delivery <br /> Menu
+            </p>
+          </div>
+          <div className="floating relative top-24">
+            <img
+              className="brightness-50 hover:brightness-90 transition duration-700 ease-in-out"
+              src={Images.category2}
+              alt="Dining menu"
+            />
+            <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
+              Dining <br /> Menu
+            </p>
+          </div>
+          <div className="floating relative top-32">
+            <img
+              className="brightness-50 hover:brightness-90 transition duration-700 ease-in-out"
+              src={Images.category4}
+              alt="Drink menu"
+            />
+            <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
+              Drink <br /> Menu
+            </p>
+          </div>
+          <div className="floating relative top-44">
+            <img
+              className="brightness-50 hover:brightness-90 transition duration-700 ease-in-out"
+              src={Images.category5}
+              alt="Happy hour"
+            />
+            <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
+              Happy <br /> Hour
+            </p>
+          </div>
+          <div className="floating relative top-28">
+            <img
+              className="brightness-50 hover:brightness-90 transition duration-700 ease-in-out"
+              src={Images.category3}
+              alt="Dessert menu"
+            />
+            <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
+              Dessert <br /> Menu
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

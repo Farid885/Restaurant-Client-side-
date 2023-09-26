@@ -3,7 +3,7 @@ import { Images } from "../../../assets/images/Images";
 
 function FooterContent() {
   return (
-    <div className="mx-16 relative top-32 lg:top-36">
+    <div className="mx-16 relative top-32 lg:top-52">
       <div className="flex flex-col justify-center text-center items-center ">
         {/* Home page link (" / ") */}
         <div>
