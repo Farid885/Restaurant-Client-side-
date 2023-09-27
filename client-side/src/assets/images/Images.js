@@ -11,10 +11,6 @@ import menuBG from "./bgImages/menuBg.jpg";
 import Footer from "./bgImages/footerBg.jpg";
 import sakura1 from "./bgImages/footerSakura1.png";
 import sakura2 from "./bgImages/footerSakura2.png";
-// import Farid from "./icons/F.png";
-// import Zeynal from "./icons/Z.png";
-// import Murad from "./icons/M.png";
-// import Nazilya from "./icons/N.png";
 import homePic from "./foods/homePic.jpg";
 import food1 from "./foods/food1.png";
 import food2 from "./foods/food2.png";
@@ -26,8 +22,11 @@ import category2 from "./categories/category2.jpg";
 import category3 from "./categories/category3.jpg";
 import category4 from "./categories/category4.jpg";
 import category5 from "./categories/category5.jpg";
-import Zackary from "./Zackary.jpeg";
-import team from "./team.jpg";
+import Zackary from "./team/Zackary.jpeg";
+import Nazilya from "./team/Nazilya.jpeg";
+import Farid from "./team/Farid.jpg";
+import Murad from "./team/Murad.jpg";
+import team from "./team/team.jpg";
 
 export const Images = {
   Hero,
@@ -55,9 +54,8 @@ export const Images = {
   category4,
   category5,
   Zackary,
+  Nazilya,
+  Farid,
+  Murad,
   team,
-  // Farid,
-  // Zeynal,
-  // Murad,
-  // Nazilya,
 };
