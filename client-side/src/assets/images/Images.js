@@ -22,8 +22,8 @@ import category2 from "./categories/category2.jpg";
 import category3 from "./categories/category3.jpg";
 import category4 from "./categories/category4.jpg";
 import category5 from "./categories/category5.jpg";
-import Zackary from "./team/Zackary.jpeg";
-import Nazilya from "./team/Nazilya.jpeg";
+import Zeynal from "./team/Zeynal.jpeg";
+import Nazilya from "./team/Nazilya.jpg";
 import Farid from "./team/Farid.jpg";
 import Murad from "./team/Murad.jpg";
 import team from "./team/team.jpg";
@@ -53,7 +53,7 @@ export const Images = {
   category3,
   category4,
   category5,
-  Zackary,
+  Zeynal,
   Nazilya,
   Farid,
   Murad,
