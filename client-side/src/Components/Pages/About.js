@@ -35,12 +35,12 @@ function About() {
         </div>
       </section>
       <section>
-        <div className="flex">
-          <div className="flex flex-col justify-center mx-32">
+        <div className="flex flex-col-reverse">
+          <div className="flex flex-col justify-center mx-8 lg:mx-32">
             <div>
-              <p className="font-bigText text-about text-3xl">EXECUTIVE CHEF</p>
-              <h3 className="font-bigText text-about text-8xl mb-14">Lloyd Roberts</h3>
-              <p className="font-miniText text-sm">
+              <p className="font-bigText text-about text-2xl lg:text-3xl">EXECUTIVE CHEF</p>
+              <h3 className="font-bigText text-about text-7xl lg:text-8xl mb-14">Lloyd Roberts</h3>
+              <p className="font-miniText text-base lg:text-sm">
                 Lloyd Roberts, Executive Chef of Sakura Restaurant in Birmingham
                 Michigan. Prior to working at Sakura, Chef Lloyd worked and
                 learned from master chefs Jean-Georges Vongerichten, Nobu
@@ -52,7 +52,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div className="w-[200rem]">
+          <div className="mx-8 my-8 lg:mx-0 lg:my-0 lg:w-[200rem]">
             <img className="object-cover" src={Images.Chef} alt="sushi" />
           </div>
         </div>
