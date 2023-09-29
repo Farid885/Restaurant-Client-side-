@@ -35,7 +35,7 @@ function About() {
         </div>
       </section>
       <section>
-        <div className="flex flex-col-reverse">
+        <div className="flex flex-col-reverse lg:flex-row">
           <div className="flex flex-col justify-center mx-8 lg:mx-32">
             <div>
               <p className="font-bigText text-about text-2xl lg:text-3xl">EXECUTIVE CHEF</p>
