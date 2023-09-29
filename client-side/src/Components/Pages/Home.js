@@ -5,7 +5,7 @@ import Menu from "./home/Menu";
 
 function Home() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Hero />
       <OurMission />
       <Menu />

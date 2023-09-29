@@ -6,7 +6,7 @@ import Manager from "./about/Manager";
 
 function About() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <AboutHero />
       <Sushi />
       <Chef />

@@ -73,7 +73,7 @@ function OurMission() {
         </div>
         <div className="lg:hidden">
           <img
-            className="relative w-24 -top-10 spin"
+            className="relative w-48 -top-10 spin"
             src={Images.food2}
             alt="food"
           />
@@ -82,19 +82,19 @@ function OurMission() {
               Stylish and Flavorful Components
             </h3>
             <img
-              className="relative w-28 -left-24 spin"
+              className="relative w-48 -left-24 spin"
               src={Images.food3}
               alt="food"
             />
           </div>
           <div className="flex justify-between mt-8 relative z-30 w-full">
-            <div className="relative -top-14 z-30 w-24 ">
+            <div className="relative -top-14 z-30 w-44 ">
               <img className="spin" src={Images.food1} alt="food" />
             </div>
-            <div className="relative top-12 z-30 w-32">
+            <div className="relative top-16 z-30 w-44">
               <img className="spin" src={Images.food4} alt="food" />
             </div>
-            <div className="relative z-30 w-24 -left-16">
+            <div className="relative z-30 w-44 ">
               <img className="spin" src={Images.food5} alt="food" />
             </div>
           </div>

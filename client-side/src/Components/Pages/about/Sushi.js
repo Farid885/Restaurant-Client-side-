@@ -11,7 +11,7 @@ function Sushi() {
             <img className="w-48 h-48 spin" src={Images.sushi5} alt="sushi" />
             <img className="w-48 h-48 spin" src={Images.sushi4} alt="sushi" />
           </div>
-          <div className="flex gap-8 -rotate-[50deg] relative -top-[6rem] z-10 overflow-hidden">
+          <div className="flex gap-8 -rotate-[50deg] relative -top-[6rem] z-10">
             <img className="w-48 h-48 spin" src={Images.sushi3} alt="sushi" />
             <img className="w-48 h-48 spin" src={Images.sushi2} alt="sushi" />
             <img className="w-48 h-48 spin" src={Images.sushi1} alt="sushi" />

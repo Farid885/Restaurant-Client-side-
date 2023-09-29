@@ -4,7 +4,7 @@ import { Images } from "../../../assets/images/Images";
 function Content() {
   return (
     <div>
-         <div className="hidden lg:block overflow-hidden">
+         <div className="hidden lg:block">
         <div className="flex">
           <div className="relative top-12">
             <h3 className="text-9/5xl leading-[8rem] relative z-40 text-primaryText font-bigText ml-32 in-up">
@@ -12,7 +12,7 @@ function Content() {
             </h3>
           </div>
           <div className="relative lg:top-6 xl:-top-6 z-10">
-            <img className=" xl:w-[35rem] spin" src={Images.food1} alt="food" />
+            <img className="lg:w-[30rem] xl:w-[36rem] spin" src={Images.food1} alt="food" />
           </div>
         </div>
         <div className="flex gap-96">
