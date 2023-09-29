@@ -100,7 +100,7 @@ function OurMission() {
           </div>
         </div>
       </section>
-      <Content/>
+      <Content />
     </div>
   );
 }

@@ -113,7 +113,7 @@ function Teammates() {
                   <p>Nazila Shikhkarimova</p>
                 </h3>
                 <span className="text-gray-500 dark:text-gray-400">
-                  Junior Front-end Developer
+                  Middle Front-end Developer
                 </span>
                 <ul className="flex space-x-4 sm:mt-4">
                   <li>
@@ -289,7 +289,7 @@ function Teammates() {
                   <p>Murad Rehimov</p>
                 </h3>
                 <span className="text-gray-500 dark:text-gray-400">
-                  Junior Front-end Developer
+                  Middle Front-end Developer
                 </span>
                 <ul className="flex space-x-4 sm:mt-4">
                   <li>

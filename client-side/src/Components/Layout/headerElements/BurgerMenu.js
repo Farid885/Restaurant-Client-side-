@@ -12,7 +12,7 @@ function BurgerMenu() {
   // ===================================
 
   return (
-    <div className="block lg:hidden">
+    <div id="burger" className="block lg:hidden">
       <button
         className="flex flex-col justify-center items-center group"
         onClick={() => setIsOpen(!isOpen)}

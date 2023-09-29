@@ -17,7 +17,7 @@ function TeamHero() {
             </div>
             <a
               href="#teamsection"
-              className="flex justify-center mt-4 lg:mt-0 border border-secondaryText font-bigText px-12 py-2 hover:bg-secondaryText hover:text-black text-2xl transition ease transform duration-300 in-up cursor-pointer"
+              className="flex justify-center mt-4 lg:mt-0 border border-primaryText font-bigText px-12 py-2 hover:bg-primaryText text-primaryText hover:text-black text-2xl transition ease transform duration-300 in-up cursor-pointer"
             >
               <button className="tracking-widest">View our team</button>
             </a>

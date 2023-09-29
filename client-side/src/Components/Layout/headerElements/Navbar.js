@@ -9,7 +9,10 @@ function Navbar() {
   };
 
   function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    if (
+      document.body.scrollTop > 80 ||
+      document.documentElement.scrollTop > 80
+    ) {
       document.getElementById("logo").style.fontSize = "48px";
       document.getElementById("navbar").classList.add("bg-fixedNav");
     } else {
@@ -23,15 +26,16 @@ function Navbar() {
     <div id="navbar" className="fixed w-full z-50">
       <div className="mx-4 lg:mx-auto my-2 max-w-screen-xl">
         <div className="flex justify-between items-center">
-          {/* Home page link (" / ") */}
           <div>
             <Link to={"/"}>
-              <h1 id="logo" className="font-logo text-secondaryText text-8xl cursor-pointer">
+              <h1
+                id="logo"
+                className="font-logo text-secondaryText text-8xl cursor-pointer"
+              >
                 sakura
               </h1>
             </Link>
           </div>
-          {/* ====================== */}
           <NavLinks />
           <BurgerMenu />
         </div>

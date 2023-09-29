@@ -8,6 +8,7 @@ module.exports = {
         secondaryText: "#E4D1BF",
         fixedNav: "#091b1e",
         test:"#052122",
+        about:"#DDD6CC",
       },
       fontFamily: {
         bigText: ["Freight"],

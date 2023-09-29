@@ -1,12 +1,12 @@
-import Hero from "./bgImages/heroBg.jpg";
-import About from "./aboutImg/about.jpg";
-import AboutBG from "./aboutImg/aboutBG.jpg";
-import sushi1 from "./aboutImg/sushi1.png";
-import sushi2 from "./aboutImg/sushi2.png";
-import sushi3 from "./aboutImg/sushi3.png";
-import sushi4 from "./aboutImg/sushi4.png";
-import sushi5 from "./aboutImg/sushi5.jpg";
-import sushi6 from "./aboutImg/sushi6.png";
+import Chef from "./team/chef.jpg";
+import Hero from "./bgImages/heroBg.jpg"
+import AboutBg from "./bgImages/aboutBg.jpg";
+import sushi1 from "./foods/sushi1.png";
+import sushi2 from "./foods/sushi2.png";
+import sushi3 from "./foods/sushi3.png";
+import sushi4 from "./foods/sushi4.png";
+import sushi5 from "./foods/sushi5.jpg";
+import sushi6 from "./foods/sushi6.png";
 import menuBG from "./bgImages/menuBg.jpg";
 import Footer from "./bgImages/footerBg.jpg";
 import sakura1 from "./bgImages/footerSakura1.png";
@@ -29,9 +29,8 @@ import Murad from "./team/Murad.jpg";
 import team from "./team/team.jpg";
 
 export const Images = {
-  Hero,
-  About,
-  AboutBG,
+  Chef,
+  AboutBg,
   sushi1,
   sushi2,
   sushi3,
@@ -58,4 +57,5 @@ export const Images = {
   Farid,
   Murad,
   team,
+  Hero,
 };
