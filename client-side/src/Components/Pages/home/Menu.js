@@ -6,11 +6,11 @@ function Menu() {
     <div>
       <section id="menu" className="hidden lg:block relative -top-24">
         <div className="mx-10 relative xl:top-24 flex justify-center">
-          <h3 className="text-primaryText text-5xl xm:text-7xl md:text-8xl lg:text-9xl xl:text-11xl font-bigText in-up">
+          <h3 className="text-primaryText text-5xl xm:text-7xl md:text-8xl lg:text-9xl xl:text-11xl font-bigText anim in-up">
             View Our Menu
           </h3>
         </div>
-        <div id="categories" className="flex gap-4 relative z-40">
+        <div id="categories" className="flex gap-4 relative z-40 anim in-up">
           <div className="floating relative top-36">
             <img
               className="brightness-50 hover:brightness-90 transition duration-700 ease-in-out"
@@ -66,4 +66,5 @@ function Menu() {
     </div>
   );
 }
+
 export default Menu;

@@ -16,10 +16,10 @@ function OurMission() {
           <div className="xl:w-[80rem]">
             <div className="text-secondaryText">
               <div>
-                <h3 className="flex text-6xl font-bigText mx-6 md:mx-6 lg:mx-36 xl:mx-44 relative top-20 in-left">
+                <h3 className="flex text-6xl font-bigText mx-6 md:mx-6 lg:mx-36 xl:mx-44 relative top-20 anim in-left">
                   Our Mission
                 </h3>
-                <div className="mx-6 lg:mx-24 mt-32 flex lg:justify-end xl:justify-end flex-col md:flex-row lg:flex-row xl:flex-row gap-8 font-miniText text-sm lg:text-xs in-up">
+                <div className="mx-6 lg:mx-24 mt-32 flex lg:justify-end xl:justify-end flex-col md:flex-row lg:flex-row xl:flex-row gap-8 font-miniText text-sm lg:text-xs anim in-up">
                   <div className="lg:w-[25rem]">
                     <p>
                       Looking for the best Japanese-inspired restaurant in
@@ -56,14 +56,14 @@ function OurMission() {
                   </div>
                 </div>
                 <div className="flex justify-center lg:justify-end xl:justify-end lg:mx-24">
-                  <p className="mt-8 under text-xl font-bigText pb-1 cursor-pointer in-up ">
+                  <p className="mt-8 under text-xl font-bigText pb-1 cursor-pointer anim in-up">
                     VIEW OUR MENU
                   </p>
                 </div>
               </div>
               <div className="flex justify-end mt-8">
                 <img
-                  className="object-cover w-[63rem] h-[28rem] hidden lg:block in-left"
+                  className="object-cover w-[63rem] h-[28rem] hidden lg:block anim in-left"
                   src={Images.homePic}
                   alt="menu"
                 />

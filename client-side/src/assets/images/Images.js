@@ -27,6 +27,7 @@ import Nazilya from "./team/Nazilya.jpg";
 import Farid from "./team/Farid.jpg";
 import Murad from "./team/Murad.jpg";
 import team from "./team/team.jpg";
+import Menu from "./bgImages/menuHero.jpg";
 
 export const Images = {
   Chef,
@@ -58,4 +59,5 @@ export const Images = {
   Murad,
   team,
   Hero,
+  Menu,
 };

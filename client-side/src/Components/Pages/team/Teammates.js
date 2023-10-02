@@ -5,14 +5,14 @@ function Teammates() {
   return (
     <div>
       <section id="teamsection" className="bg-white">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 anim in-up">
           <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-            <h2 className="mb-4 text-8xl tracking-wide font-logo text-secondaryText in-up">
+            <h2 className="mb-4 text-8xl tracking-wide font-logo text-secondaryText">
               Sakura <br /> Team
             </h2>
           </div>
           <div className="grid gap-8 mb-6 md:grid-cols-2">
-            <div className="items-center bg-gray-50 rounded-lg shadow-2xl sm:flex dark:bg-test dark:border-gray-700 in-left">
+            <div className="items-center bg-gray-50 rounded-lg shadow-2xl sm:flex dark:bg-dark dark:border-gray-700 in-left">
               <a href="#">
                 <img
                   className="w-full h-48 rounded-lg sm:rounded-none sm:rounded-l-lg object-cover"
@@ -100,7 +100,7 @@ function Teammates() {
                 </ul>
               </div>
             </div>
-            <div className="items-center bg-gray-50 rounded-lg shadow-2xl sm:flex dark:bg-test dark:border-gray-700 in-right">
+            <div className="items-center bg-gray-50 rounded-lg shadow-2xl sm:flex dark:bg-dark dark:border-gray-700 in-right">
               <a href="#">
                 <img
                   className="w-full h-48 rounded-lg sm:rounded-none sm:rounded-l-lg object-cover"
@@ -188,7 +188,7 @@ function Teammates() {
                 </ul>
               </div>
             </div>
-            <div className="items-center bg-gray-50 rounded-lg shadow-2xl sm:flex dark:bg-test dark:border-gray-700 in-left">
+            <div className="items-center bg-gray-50 rounded-lg shadow-2xl sm:flex dark:bg-dark dark:border-gray-700 in-left">
               <a href="#">
                 <img
                   className="w-full h-48 rounded-lg sm:rounded-none sm:rounded-l-lg object-cover"
@@ -276,7 +276,7 @@ function Teammates() {
                 </ul>
               </div>
             </div>
-            <div className="items-center bg-gray-50 rounded-lg shadow-2xl sm:flex dark:bg-test dark:border-gray-700 in-right">
+            <div className="items-center bg-gray-50 rounded-lg shadow-2xl sm:flex dark:bg-dark dark:border-gray-700 in-right">
               <a href="#">
                 <img
                   className="w-full h-48 rounded-lg sm:rounded-none sm:rounded-l-lg object-cover"

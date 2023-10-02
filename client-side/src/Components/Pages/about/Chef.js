@@ -5,9 +5,9 @@ function Chef() {
   return (
     <div>
       <section id="chef">
-        <div className="flex flex-col-reverse lg:flex-row">
+        <div className="flex flex-col-reverse md:flex-row lg:flex-row">
           <div className="flex flex-col justify-center mx-8 lg:mx-32 in-left">
-            <div className="mb-14 lg:mb-0">
+            <div className="mb-14 lg:mb-0 anim in-left">
               <p className="font-bigText text-about text-2xl lg:text-3xl">
                 EXECUTIVE CHEF
               </p>
@@ -26,7 +26,7 @@ function Chef() {
               </p>
             </div>
           </div>
-          <div className="mx-8 my-8 lg:mx-0 lg:my-0 lg:w-[200rem] in-right">
+          <div className="mx-8 my-8 lg:mx-0 lg:my-0 lg:w-[200rem] anim in-right">
             <img className="object-cover" src={Images.Chef} alt="sushi" />
           </div>
         </div>

@@ -3,7 +3,7 @@ import { Images } from "../../../assets/images/Images";
 
 function SakuraImage() {
   return (
-    <div className="flex justify-between in-up relative ">
+    <div className="flex justify-between anim in-up relative ">
       <div>
         <img className="w-72 opacity-60 relative -top-8" src={Images.sakura1} alt="sakura" />
       </div>
