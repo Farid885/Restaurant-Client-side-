@@ -7,6 +7,8 @@ module.exports = {
         primaryText: "#EBDFD4",
         secondaryText: "#E4D1BF",
         fixedNav: "#091b1e",
+        about:"#DDD6CC",
+        dark:"#031013",
       },
       fontFamily: {
         bigText: ["Freight"],

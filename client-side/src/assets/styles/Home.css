@@ -1,117 +1,3 @@
-.sushiSection {
-  z-index: 100;
-  height: 1000px;
-}
-@media (max-width: 1200px) {
-  .sushiSection {
-    display: none;
-  }
-}
-.sushiSection .sushi_section_1 .sushi4 {
-  position: absolute;
-  top: 0;
-  left: 320px;
-}
-.sushiSection .sushi_section_1 .sushi4 {
-  animation: imgRotate 60s linear infinite;
-}
-@keyframes imgRotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.sushiSection .sushi_section_1 .sushi5 {
-  position: absolute;
-  top: 190px;
-  left: 150px;
-}
-.sushiSection .sushi_section_1 .sushi5 {
-  animation: imgRotate 60s linear infinite;
-}
-@keyframes imgRotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.sushiSection .sushi_section_1 .sushi6 {
-  position: absolute;
-  top: 350px;
-  left: 0px;
-}
-.sushiSection .sushi_section_1 .sushi6 {
-  animation: imgRotate 60s linear infinite;
-}
-@keyframes imgRotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.sushiSection .sushi_section_2 .sushi1 {
-  position: absolute;
-  top: 190px;
-  right: 20px;
-}
-.sushiSection .sushi_section_2 .sushi1 {
-  animation: imgRotate 60s linear infinite;
-}
-@keyframes imgRotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.sushiSection .sushi_section_2 .sushi2 {
-  position: absolute;
-  top: 400px;
-  right: 160px;
-}
-.sushiSection .sushi_section_2 .sushi2 {
-  animation: imgRotate 60s linear infinite;
-}
-@keyframes imgRotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.sushiSection .sushi_section_2 .sushi3 {
-  position: absolute;
-  top: 600px;
-  right: 350px;
-}
-.sushiSection .sushi_section_2 .sushi3 {
-  animation: imgRotate 60s linear infinite;
-}
-@keyframes imgRotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@media (min-width: 1200px) {
-  .aboutTitle {
-    height: 485px;
-  }
-}
-@media (min-width: 1200px) {
-  .aboutTitle .container .img {
-    position: absolute;
-    right: -120px;
-    top: -220px;
-  }
-}
-.aboutTitle .container p span {
-  color: #ddd6cc;
-}
-.aboutTitle .container p h1 {
-  font-size: 70px;
-  color: #ddd6cc;
-}
-
-.container-fluid {
-  background-color: #031013;
-  height: 500px;
-  width: 100%;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -127,26 +13,6 @@
   font-family: Lato;
   src: url("../fonts/Lato/Lato-Regular.ttf");
 }
-.spin {
-  animation: ring 45s linear infinite;
-}
-
-.in-left {
-  animation: fadeInLeft 1.5s 0.3s both;
-}
-
-.in-left-next {
-  animation: fadeInLeft 1.5s 1s both;
-}
-
-.in-right {
-  animation: fadeInRight 1.5s 0.3s both;
-}
-
-.in-up {
-  animation: fadeInUp 1.5s 0.3s both;
-}
-
 .under {
   position: relative;
   display: inline-block;
@@ -170,6 +36,94 @@
   transform: scaleX(1);
 }
 
+.spin {
+  animation: ring 45s linear infinite;
+}
+
+@keyframes ring {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.base-in-left {
+  animation: fadeInLeft 1.5s 0.3s both;
+}
+
+.base-in-left-next {
+  animation: fadeInLeft 1.5s 1s both;
+}
+
+.anim.in-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 1.8s;
+}
+
+.anim.in-left.active {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.base-in-right {
+  animation: fadeInRight 1.5s 0.3s both;
+}
+
+.anim.in-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 1.8s;
+}
+
+.anim.in-right.active {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.base-in-up {
+  animation: fadeInUp 1.5s 0.3s both;
+}
+
+.anim.in-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1.8s;
+}
+
+.in-up.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 .floating {
   animation: float 8s ease-in-out infinite;
 }
@@ -183,40 +137,5 @@
   }
   100% {
     transform: translateY(0px);
-  }
-}
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-@keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-@keyframes ring {
-  100% {
-    transform: rotate(360deg);
   }
 }/*# sourceMappingURL=Home.css.map */

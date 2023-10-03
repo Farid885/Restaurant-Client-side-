@@ -1,13 +1,11 @@
-@import "aboutStyles/AboutSushi.scss";
-@import "aboutStyles/AboutMiddle.scss";
-@import "aboutStyles/AboutFooter.scss";
-
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
-
+//================================================================================================================================================================
+//Fonts
+//================================================================================================================================================================
 @font-face {
   font-family: Freight;
   src: url("../fonts/Freight/Freight.otf");
@@ -21,6 +19,7 @@
   src: url("../fonts/Lato/Lato-Regular.ttf");
 }
 //================================================================================================================================================================
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 //Hover
@@ -42,6 +41,8 @@
   animation: fadeInUp 1.5s 0.3s both;
 }
 >>>>>>> 2617358b1b71c35ad37a2f6c2cd7fcc9b425dcc2
+=======
+>>>>>>> b2b28983ffd98527c5ebbe852af86e160514d7b3
 .under {
   position: relative;
   display: inline-block;
@@ -62,6 +63,7 @@
   transform-origin: bottom left;
   transform: scaleX(1);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 //================================================================================================================================================================
 
@@ -86,6 +88,92 @@
 }
 
 =======
+=======
+//================================================================================================================================================================
+//Animations
+//================================================================================================================================================================
+.spin {
+  animation: ring 45s linear infinite;
+}
+@keyframes ring {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+//================================================================================================================================================================
+.base-in-left {
+  animation: fadeInLeft 1.5s 0.3s both;
+}
+.base-in-left-next {
+  animation: fadeInLeft 1.5s 1s both;
+}
+.anim.in-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 1.8s;
+}
+.anim.in-left.active {
+  opacity: 1;
+  transform: translateX(0px);
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+//================================================================================================================================================================
+.base-in-right {
+  animation: fadeInRight 1.5s 0.3s both;
+}
+.anim.in-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 1.8s;
+}
+.anim.in-right.active {
+  opacity: 1;
+  transform: translateX(0px);
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+//================================================================================================================================================================
+.base-in-up {
+  animation: fadeInUp 1.5s 0.3s both;
+}
+.anim.in-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1.8s;
+}
+.in-up.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+//================================================================================================================================================================
+>>>>>>> b2b28983ffd98527c5ebbe852af86e160514d7b3
 .floating {
   animation: float 8s ease-in-out infinite;
 }
@@ -100,6 +188,7 @@
     transform: translateY(0px);
   }
 }
+<<<<<<< HEAD
 >>>>>>> 2617358b1b71c35ad37a2f6c2cd7fcc9b425dcc2
 @keyframes fadeInLeft {
   from {
@@ -140,4 +229,6 @@
     transform: rotate(360deg);
   }
 }
+=======
+>>>>>>> b2b28983ffd98527c5ebbe852af86e160514d7b3
 //================================================================================================================================================================
