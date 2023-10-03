@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "./home/HeroSection";
 import OurMission from "./home/OurMission";
-import Menu from "./home/Menu";
+import Menu from "./home/MenuSection";
 
 function Home() {
   return (

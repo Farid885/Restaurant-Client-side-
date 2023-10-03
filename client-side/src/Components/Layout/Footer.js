@@ -5,7 +5,7 @@ import FooterContent from "./footerElements/FooterContent";
 
 function Footer() {
   return (
-    <div className="relative">
+    <footer className="relative">
       <div
         className="w-full h-[40rem]  text-secondaryText text-center"
         style={{ backgroundImage: `url(${Images.Footer})` }}
@@ -13,7 +13,7 @@ function Footer() {
         <FooterContent />
         <SakuraImage />
       </div>
-    </div>
+    </footer>
   );
 }
 export default Footer;

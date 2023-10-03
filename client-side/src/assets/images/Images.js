@@ -1,5 +1,5 @@
 import Chef from "./team/chef.jpg";
-import Hero from "./bgImages/heroBg.jpg"
+import Hero from "./bgImages/heroBg.jpg";
 import AboutBg from "./bgImages/aboutBg.jpg";
 import sushi1 from "./foods/sushi1.png";
 import sushi2 from "./foods/sushi2.png";
@@ -28,6 +28,14 @@ import Farid from "./team/Farid.jpg";
 import Murad from "./team/Murad.jpg";
 import team from "./team/team.jpg";
 import Menu from "./bgImages/menuHero.jpg";
+import Delivery1 from "./foods/deliveryMenu/delivery1.jpg";
+import Delivery2 from "./foods/deliveryMenu/delivery2.jpg";
+import Delivery3 from "./foods/deliveryMenu/delivery3.jpg";
+import Delivery4 from "./foods/deliveryMenu/delivery4.jpg";
+import Whisky1 from "./foods/drinksMenu/whisky1.jpg";
+import Whisky2 from "./foods/drinksMenu/whisky2.jpeg";
+import Whisky3 from "./foods/drinksMenu/whisky3.jpeg";
+import Whisky4 from "./foods/drinksMenu/whisky4.jpeg";
 
 export const Images = {
   Chef,
@@ -60,4 +68,13 @@ export const Images = {
   team,
   Hero,
   Menu,
+  Delivery1,
+  Delivery2,
+  Delivery3,
+  Delivery4,
+  Whisky1,
+  Whisky2,
+  Whisky3,
+  Whisky4,
+
 };
