@@ -60,7 +60,7 @@ function Menu() {
                   </p>
                 </div>
                 <div className="mt-2 flex justify-center text-center font-miniText text-lg">
-                  <p className="tracking-wide w-40">$97.75</p>
+                  <p className="tracking-wide w-40">$26.47</p>
                 </div>
               </div>
               <div className="bg-white p-8 rounded-md w-72 h-96">
@@ -81,7 +81,7 @@ function Menu() {
                   </p>
                 </div>
                 <div className="mt-2 flex justify-center text-center font-miniText text-lg">
-                  <p className="tracking-wide w-40">$97.75</p>
+                  <p className="tracking-wide w-40">$10.00</p>
                 </div>
               </div>
               <div className="bg-white p-8 rounded-md w-72 h-96">
@@ -102,7 +102,7 @@ function Menu() {
                   </p>
                 </div>
                 <div className="mt-2 flex justify-center text-center font-miniText text-lg">
-                  <p className="tracking-wide w-40">$97.75</p>
+                  <p className="tracking-wide w-40">$13.53</p>
                 </div>
               </div>
               <div className="bg-white p-8 rounded-md w-72 h-96">
@@ -123,7 +123,7 @@ function Menu() {
                   </p>
                 </div>
                 <div className="mt-2 flex justify-center text-center font-miniText text-lg">
-                  <p className="tracking-wide w-40">$97.75</p>
+                  <p className="tracking-wide w-40">$15.29</p>
                 </div>
               </div>
               <div className="bg-white p-8 rounded-md w-72 h-96">
