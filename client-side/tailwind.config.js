@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-const withMT = require("@material-tailwind/react/utils/withMT");
 
-module.exports = withMT({
+module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
@@ -9,8 +8,8 @@ module.exports = withMT({
         primaryText: "#EBDFD4",
         secondaryText: "#E4D1BF",
         fixedNav: "#091b1e",
-        about:"#DDD6CC",
-        dark:"#031013",
+        about: "#DDD6CC",
+        dark: "#031013",
       },
       fontFamily: {
         bigText: ["Freight"],
@@ -27,4 +26,4 @@ module.exports = withMT({
     },
   },
   plugins: [],
-});
+};

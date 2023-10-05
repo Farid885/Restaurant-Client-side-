@@ -9,19 +9,21 @@ function NavLinks() {
         className="opacity-100 text-secondaryText hidden lg:block base-in-right"
       >
         <ul className="flex gap-28">
-          <Link to={"/about"}>
-            <li className="under cursor-pointer">About</li>
-          </Link>
+          <li className="under cursor-pointer">
+            <Link to={"/about"}>About</Link>
+          </li>
 
-          <Link to={"/menu"}>
-            <li className="under cursor-pointer">Menu</li>
-          </Link>
-          <Link to={"/team"}>
-            <li className="under cursor-pointer">Team</li>
-          </Link>
+          <li className="under cursor-pointer">
+            <Link to={"/menu"}>Menu</Link>
+          </li>
+
+          <li className="under cursor-pointer">
+            <Link to={"/team"}>Team</Link>
+          </li>
         </ul>
       </div>
     </div>
   );
 }
+
 export default NavLinks;
