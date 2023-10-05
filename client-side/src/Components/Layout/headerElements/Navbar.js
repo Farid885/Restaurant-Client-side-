@@ -24,7 +24,7 @@ function Navbar() {
   }
   return (
     <div id="navbar" className="fixed w-full z-50">
-      <div className="mx-4 lg:mx-auto my-2 max-w-screen-xl">
+      <div className="mx-4 lg:mx-16 my-2">
         <div className="flex justify-between items-center">
           <div>
             <Link to={"/"}>
