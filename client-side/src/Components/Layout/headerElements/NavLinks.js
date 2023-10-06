@@ -10,15 +10,15 @@ function NavLinks() {
       >
         <ul className="flex gap-28">
           <li className="under cursor-pointer">
-            <Link to={"/about"}>About</Link>
+            <Link to={"/about"}>About Us</Link>
           </li>
 
           <li className="under cursor-pointer">
-            <Link to={"/menu"}>Menu</Link>
+            <Link to={"/menu"}>View Menu</Link>
           </li>
 
           <li className="under cursor-pointer">
-            <Link to={"/team"}>Team</Link>
+            <Link to={"/team"}>Our Team</Link>
           </li>
         </ul>
       </div>

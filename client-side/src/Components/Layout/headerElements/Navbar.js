@@ -33,7 +33,10 @@ function Navbar() {
               <h1
                 id="logo"
                 className="font-logo text-secondaryText text-8xl cursor-pointer"
-                style={{ fontSize: isScrolled ? "48px" : "96px", transition: "all .7s" }}
+                style={{
+                  fontSize: isScrolled ? "48px" : "96px",
+                  transition: "all .7s",
+                }}
               >
                 sakura
               </h1>

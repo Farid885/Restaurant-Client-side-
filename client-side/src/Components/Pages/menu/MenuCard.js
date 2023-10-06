@@ -10,7 +10,7 @@ function MenuCard() {
       title: "Sushi cake",
       desc: "Sushi Cake is designed for bright events and unforgettable moments",
       price: "26.47",
-      category:"delivery",
+      category: "delivery",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ function MenuCard() {
       title: "Secret set",
       desc: "Secret Sushi Set - affordable price and interesting presentation",
       price: "10.00",
-      category:"delivery",
+      category: "delivery",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ function MenuCard() {
       title: "Deluxe sushi set",
       desc: "Deluxe Sushi Set - classic sushi rolls and a new taste. Multitasking range",
       price: "13.53",
-      category:"delivery",
+      category: "delivery",
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ function MenuCard() {
       title: "Mini sushi set",
       desc: "Mini-sushi set also depends on the number of rolls inside, on taste",
       price: "15.29",
-      category:"delivery",
+      category: "delivery",
     },
     {
       id: 5,
@@ -42,7 +42,7 @@ function MenuCard() {
       title: "BOWMORE",
       desc: "15 year old single malt scotch whisky 750ml",
       price: "120.20",
-      category:"drinks",
+      category: "drinks",
     },
     {
       id: 6,
@@ -50,7 +50,7 @@ function MenuCard() {
       title: "THE MACALLAN",
       desc: "12 year old double cask whisky 750ml",
       price: "130.20",
-      category:"drinks",
+      category: "drinks",
     },
     {
       id: 7,
@@ -58,7 +58,7 @@ function MenuCard() {
       title: "TOKI",
       desc: "blended Japanese whisky 750ml",
       price: "64.20",
-      category:"drinks",
+      category: "drinks",
     },
     {
       id: 8,
@@ -66,14 +66,14 @@ function MenuCard() {
       title: "LAPHROAIG QUARTER CASK",
       desc: "Islay single malt scotch whisky 750ml",
       price: "97.75",
-      category:"drinks",
+      category: "drinks",
     },
   ];
 
   return (
     <div className="flex flex-wrap gap-8 justify-center items-center lg:justify-between">
       {products.map((data, index) => (
-        <div 
+        <div
           key={data.id}
           className="bg-white p-8 rounded-md w-72 h-96 hover:-translate-y-4 transition ease-in-out delay-150"
         >
