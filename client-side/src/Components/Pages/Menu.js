@@ -2,6 +2,12 @@ import React from "react";
 import { Images } from "../../assets/images/Images";
 
 function Menu() {
+
+
+
+
+
+  
   return (
     <div>
       <section id="menu" className="relative">
