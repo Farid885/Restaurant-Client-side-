@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "../Layout/Footer";
+import Footer from "./Footer";
 
 function Layout(props) {
   return (

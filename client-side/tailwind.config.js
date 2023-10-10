@@ -21,6 +21,7 @@ module.exports = {
         "8/5xl": "7rem",
         "9/5xl": "10rem",
         "10xl": "11rem",
+        "10/5xl":"12rem",
         "11xl": "14rem",
       },
     },

@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Images } from "../../assets/images/Images";
+import Filter from "./menu/Filter";
 import MenuCard from "./menu/MenuCard";
 
 function Menu() {
@@ -16,31 +18,20 @@ function Menu() {
             <div>
               <h1 className="lg:tracking-wide base-in-left">Our Menu</h1>
             </div>
-            <a
-              href="reserve"
+            <Link
+              to={"/reservation"}
               className="flex justify-center mt-4 lg:mt-0 border border-primaryText font-bigText px-12 py-2 hover:bg-primaryText text-primaryText hover:text-black text-2xl transition ease transform duration-300 base-in-up cursor-pointer w-52 sm:w-full2 md:w-full lg:w-full xl:w-full"
             >
-              <button className="tracking-wide">Reserve</button>
-            </a>
+              <button to={"/reservation"} className="tracking-wide">
+                Reservation
+              </button>
+            </Link>
           </div>
         </div>
       </section>
       <section className="bg-dark">
         <div className="mx-14 py-8">
-          <div className="flex justify-center items-center gap-6 lg:gap-0 py-4 anim in-up">
-            <ul className="flex flex-wrap justify-between text-secondaryText font-bigText text-xl uppercase w-72 lg:w-full">
-              <li className="under cursor-pointer hover:italic">All menu</li>
-              <li className="under cursor-pointer hover:italic">
-                delivery menu
-              </li>
-              <li className="under cursor-pointer hover:italic">dining menu</li>
-              <li className="under cursor-pointer hover:italic">drink menu</li>
-              <li className="under cursor-pointer hover:italic">happy hour</li>
-              <li className="under cursor-pointer hover:italic">
-                dessert menu
-              </li>
-            </ul>
-          </div>
+          <Filter />
           <div className="mt-10">
             <MenuCard />
           </div>

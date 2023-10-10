@@ -16,9 +16,11 @@ function NavLinks() {
           <li className="under cursor-pointer">
             <Link to={"/menu"}>View Menu</Link>
           </li>
-
           <li className="under cursor-pointer">
             <Link to={"/team"}>Our Team</Link>
+          </li>
+          <li className="under cursor-pointer">
+            <Link to={"/reservation"}>Reservation</Link>
           </li>
         </ul>
       </div>

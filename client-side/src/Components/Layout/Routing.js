@@ -4,6 +4,7 @@ import About from "../Pages/About";
 import Team from "../Pages/Team";
 import Home from "../Pages/Home";
 import Menu from "../Pages/Menu";
+import Reservation from "../Pages/Reservation";
 function Routing() {
   // Scroll to top
   const { pathname } = useLocation();
@@ -22,6 +23,7 @@ function Routing() {
       <Route exact path="/about" element={<About />} />
       <Route exact path="/team" element={<Team />} />
       <Route exact path="/menu" element={<Menu />} />
+      <Route exact path="/reservation" element={<Reservation />} />
     </Routes>
   );
 }

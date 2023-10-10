@@ -37,6 +37,7 @@ import Whisky2 from "./foods/drinksMenu/whisky2.jpeg";
 import Whisky3 from "./foods/drinksMenu/whisky3.jpeg";
 import Whisky4 from "./foods/drinksMenu/whisky4.jpeg";
 import Sidebar from "./bgImages/menuBg.jpg";
+import Reservation from "./bgImages/reservationBg.jpg"
 
 export const Images = {
   Chef,
@@ -78,4 +79,5 @@ export const Images = {
   Whisky3,
   Whisky4,
   Sidebar,
+  Reservation,
 };

@@ -28,7 +28,7 @@ function Sidebar() {
             </h1>
             <div
               id="links"
-              className="opacity-100 text-secondaryText base-in-right mt-8"
+              className="opacity-100 text-secondaryText base-in-up mt-8"
             >
               <ul
                 className="flex flex-col gap-20 font-bigText text-3xl"
