@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Images } from "../../../assets/images/Images";
 import Content from "./Content";
 
@@ -56,9 +57,9 @@ function OurMission() {
                   </div>
                 </div>
                 <div className="flex justify-center lg:justify-end xl:justify-end lg:mx-24">
-                  <p className="mt-8 under text-xl font-bigText pb-1 cursor-pointer anim in-up">
+                  <Link to={"/menu"} className="mt-8 under text-xl font-bigText pb-1 cursor-pointer anim in-up">
                     VIEW OUR MENU
-                  </p>
+                  </Link>
                 </div>
               </div>
               <div className="flex justify-end mt-8">
@@ -73,28 +74,28 @@ function OurMission() {
         </div>
         <div className="lg:hidden">
           <img
-            className="relative w-48 -top-10 spin"
+            className="relative w-28 -top-10 spin"
             src={Images.food2}
             alt="food"
           />
           <div className="flex items-center font-bigText text-primaryText mx-8">
-            <h3 className="text-6xl relative z-20">
+            <h3 className="text-6xl relative z-20 -top-16">
               Stylish and Flavorful Components
             </h3>
             <img
-              className="relative w-48 -left-24 spin"
+              className="relative w-32 -left-20 spin -top-14"
               src={Images.food3}
               alt="food"
             />
           </div>
           <div className="flex justify-between mt-8 relative z-30 w-full">
-            <div className="relative -top-14 z-30 w-44 ">
+            <div className="relative -top-16 z-30 w-44 ">
               <img className="spin" src={Images.food1} alt="food" />
             </div>
-            <div className="relative top-16 z-30 w-44">
+            <div className="relative top-14 z-30 w-44">
               <img className="spin" src={Images.food4} alt="food" />
             </div>
-            <div className="relative z-30 w-44 ">
+            <div className="relative -top-16 z-30 w-44 ">
               <img className="spin" src={Images.food5} alt="food" />
             </div>
           </div>

@@ -3,6 +3,7 @@ import Routing from "./Components/Layout/Routing";
 import Layout from "./Components/Layout/Layout";
 
 const App = () => {
+  //Scroll animation
   useEffect(() => {
     let options = {
       root: null,

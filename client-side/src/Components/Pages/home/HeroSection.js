@@ -16,7 +16,9 @@ function Hero() {
           </p>
           <div className="text-8xl lg:text-9/5xl font-light">
             <div>
-              <h1 className="lg:tracking-wider base-in-left">Japanese Inspired</h1>
+              <h1 className="lg:tracking-wider base-in-left">
+                Japanese Inspired
+              </h1>
             </div>
             <div className="xl:tracking-widest lg:tracking-wide absolute base-in-left-next">
               <h1>Cuisine</h1>
