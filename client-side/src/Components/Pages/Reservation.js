@@ -13,7 +13,7 @@ function Reservation() {
           src={Images.Reservation}
           alt="Reservation"
         />
-        <div className="absolute top-48 left-10 lg:left-28 z-10 text-primaryText font-bigText flex flex-col justify-center">
+        <div className="absolute top-72 lg:top-48 left-10 lg:left-28 z-10 text-primaryText font-bigText flex flex-col justify-center">
           <div className="text-7xl md:text-9xl lg:text-9/5xl font-light">
             <div>
               <h1 className="lg:tracking-wide base-in-left">

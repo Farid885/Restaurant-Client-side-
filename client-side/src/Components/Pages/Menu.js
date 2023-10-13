@@ -37,10 +37,10 @@ function Menu() {
       </section>
       <section className="bg-dark">
         <div className="mx-14 py-8">
-          <Filter />
-          <div className="mt-10">
+         
+           
             <MenuCard />
-          </div>
+          
         </div>
       </section>
     </div>

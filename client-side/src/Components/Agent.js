@@ -117,19 +117,26 @@ const Comments = {
 
 const Users = {
   /**
-   * @returns {Promise<Array<{id:number;name:string}>>}
+   * @returns {Promise<Array<{id:number;name:string;type:string;phone:string;date:string;time:string}>>}
    */
   All: () => requests.get("/users"),
-  /** @param {{name:string}} body */
-  Create: (body) => requests.post("/users", body),
+  /** 
+   * @param {{name:string; phone:string; date:string; time:string}} body 
+   * @returns {Promise<{id:number;name:string;type:string;phone:string;date:string;time:string}>}
+   */
+  Create: (body) => requests.post("/users", { ...body, type: "person" }),
   /**
    * @param {number} id
-   * @param {{name:string}} body */
-  Update: (id, body) => requests.put(`/users/${id}`, body),
-  /** @param {number} id */
+   * @param {{name:string; phone:string; date:string; time:string}} body 
+   * @returns {Promise<{id:number;name:string;type:string;phone:string;date:string;time:string}>}
+   */
+  Update: (id, body) => requests.put(`/users/${id}`, { ...body, type: "person" }),
+  /** 
+   * @param {number} id 
+   * @returns {Promise<void>}
+   */
   Remove: (id) => requests.del(`/users/${id}`),
 };
-
 export const agent = { Posts, Categories, Comments, Persons, Table, Menu,Users };
 
 /**

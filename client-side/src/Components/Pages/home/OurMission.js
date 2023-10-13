@@ -6,7 +6,7 @@ import Content from "./Content";
 function OurMission() {
   return (
     <div>
-      <section id="mission" className="relative z-10 -top-24 w-full">
+      <section id="mission" className="relative z-10 lg:-top-24 w-full">
         <div
           style={{
             backgroundImage: `url(${Images.Footer})`,

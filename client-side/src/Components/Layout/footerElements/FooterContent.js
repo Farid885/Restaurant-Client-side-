@@ -39,11 +39,9 @@ function FooterContent() {
             <p>325 S OLD WOODWARD</p>|<p>BIRMINGHAM, MI 48009</p>|
             <p>COPYRIGHT 2022</p>
           </div>
-          <div className="mt-4 lg:mt-0 border border-secondaryText font-bigText px-12 py-2 hover:bg-secondaryText hover:text-black text-lg transition ease transform duration-300 anim in-right cursor-pointer">
-            <button>
-              <Link to={"/reservation"}>Reservation</Link>
-            </button>
-          </div>
+          <Link to={"/reservation"} className="mt-4 lg:mt-0 border border-secondaryText font-bigText px-12 py-2 hover:bg-secondaryText hover:text-black text-lg transition ease transform duration-300 anim in-right cursor-pointer">
+              Reservation
+          </Link>
         </div>
       </div>
     </div>

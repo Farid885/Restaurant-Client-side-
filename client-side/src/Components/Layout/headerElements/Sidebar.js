@@ -34,19 +34,19 @@ function Sidebar() {
                 className="flex flex-col gap-20 font-bigText text-3xl"
                 onClick={closeSidebar}
               >
-                <li className="under cursor-pointer">
-                  <Link to={"/about"}>About Us</Link>
+                <li className="cursor-pointer">
+                  <Link to={"/about"} className="under">About Us</Link>
                 </li>
 
-                <li className="under cursor-pointer">
-                  <Link to={"/menu"}>View Menu</Link>
+                <li className=" cursor-pointer">
+                  <Link to={"/menu"} className="under">View Menu</Link>
                 </li>
 
-                <li className="under cursor-pointer">
-                  <Link to={"/team"}>Our Team</Link>
+                <li className=" cursor-pointer">
+                  <Link to={"/team"} className="under">Our Team</Link>
                 </li>
-                <li className="under cursor-pointer">
-                  <Link to={"/reservation"}>Reservation</Link>
+                <li className=" cursor-pointer">
+                  <Link to={"/reservation"} className="under">Reservation</Link>
                 </li>
               </ul>
             </div>
