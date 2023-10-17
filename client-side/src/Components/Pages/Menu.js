@@ -5,20 +5,10 @@ import Filter from "./menu/Filter";
 import MenuCard from "./menu/MenuCard";
 
 function Menu() {
-
-
-
-
-
-  
   return (
     <div>
       <section id="menu" className="relative">
-        <img
-          className="h-screen lg:h-[51rem] w-full object-cover"
-          src={Images.Menu}
-          alt="Menu"
-        />
+        <img className="h-screen lg:h-[51rem] w-full object-cover" src={Images.Menu} alt="Menu" />
         <div className="absolute top-56 lg:top-56 left-10 lg:left-28 z-10 text-primaryText font-bigText flex flex-col justify-center">
           <div className="text-8xl lg:text-9/5xl font-light">
             <div>
@@ -37,10 +27,7 @@ function Menu() {
       </section>
       <section className="bg-dark">
         <div className="mx-14 py-8">
-         
-           
-            <MenuCard />
-          
+          <MenuCard />
         </div>
       </section>
     </div>

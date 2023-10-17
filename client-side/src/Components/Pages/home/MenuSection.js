@@ -19,7 +19,7 @@ function Menu() {
               alt="Delivery menu"
             />
             <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
-              Delivery <br /> Menu
+            SUSHI  <br />  ROLLS
             </p>
           </Link>
           <Link to={"/menu"} className="floating relative top-24">
@@ -29,7 +29,7 @@ function Menu() {
               alt="Dining menu"
             />
             <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
-              Dining <br /> Menu
+            HOT  <br /> ROLLS
             </p>
           </Link>
           <Link to={"/menu"} className="floating relative top-32">
@@ -39,7 +39,7 @@ function Menu() {
               alt="Drink menu"
             />
             <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
-              Drink <br /> Menu
+           DRINKS  <br /> 
             </p>
           </Link>
           <Link to={"/menu"} className="floating relative top-40">
@@ -49,7 +49,7 @@ function Menu() {
               alt="Happy hour"
             />
             <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
-              Happy <br /> Hour
+            NOODLES 
             </p>
           </Link>
           <Link to={"/menu"} className="floating relative top-28">
@@ -59,7 +59,7 @@ function Menu() {
               alt="Dessert menu"
             />
             <p className="text-primaryText text-3xl font-bigText text-center relative -top-32">
-              Dessert <br /> Menu
+            SNACKS <br /> 
             </p>
           </Link>
         </div>
