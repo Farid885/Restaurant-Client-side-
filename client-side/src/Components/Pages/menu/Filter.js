@@ -38,14 +38,7 @@
 //   },[])
 
   
-//   const getDataofCate = async () => {
-//     try {
-//       const res = await agent.Categories.All();
-//       setCategoryOf(res);
-//     } catch (error) {
-//       console.error("Kategorileri getirirken hata oluştu:", error);
-//     }
-//   };
+
 
 //   const getDataofMenu =async ()=>{
 //     const res  = await agent.Menu.All()
