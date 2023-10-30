@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Images } from "../../../assets/images/Images";
 import { agent } from "../../Agent";
-import Filter from "./Filter";
+
 function MenuCard(props) {
-  // Products data
+  
 
   const [menuItem, setMenuItem] = useState([]);
   const [category, setCategory] = useState([]);
@@ -16,7 +15,6 @@ function MenuCard(props) {
   const getData = async () => {
     const res = await agent.Menu.All();
     setMenuItem(res);
-    console.log(res);
     setOriginalMenuItem(res);
   };
 

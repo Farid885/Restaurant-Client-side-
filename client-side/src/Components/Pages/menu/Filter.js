@@ -3,32 +3,7 @@
 // import { useState,useEffect } from "react";
 // import MenuCard from "./MenuCard";
 // function Filter() {
-//   // const filter = [
-//   //   {
-//   //     id: 1,
-//   //     menuName: "all menu",
-//   //   },
-//   //   {
-//   //     id: 2,
-//   //     menuName: "delivery menu",
-//   //   },
-//   //   {
-//   //     id: 3,
-//   //     menuName: "dining menu",
-//   //   },
-//   //   {
-//   //     id: 4,
-//   //     menuName: "drink menu",
-//   //   },
-//   //   {
-//   //     id: 5,
-//   //     menuName: "happy menu",
-//   //   },
-//   //   {
-//   //     id: 6,
-//   //     menuName: "dessert menu",
-//   //   },
-//   // ];
+
 //   const [categoryOf,setCategoryOf]= useState([])
 // const [menu,setMenu] = useState([])
 //   useEffect(()=>{
