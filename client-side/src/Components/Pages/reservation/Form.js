@@ -23,6 +23,7 @@ function Form() {
 
   function handleChangeInput(event) {
     setInputState((prev) => ({
+      
       ...prev,
       [event.target.name]: event.target.value,
     }));
@@ -36,7 +37,7 @@ function Form() {
   const onFormSubmit = async (event) => {
     console.log("event", event);
     event.preventDefault();
-
+    console.log(event)
     console.log("inputState", inputState);
     await agent.Users.Create(inputState);
     setInputState(initialFormState)  //reset
