@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { agent } from "../../Agent";
 
-function MenuCard(props) {
+function MenuCard() {
   
 
   const [menuItem, setMenuItem] = useState([]);
